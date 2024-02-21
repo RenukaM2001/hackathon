@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="Utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="ChromeTest(failed)" verbose="0">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.TC003_UpcomingBikePage">
+        <methods>
+          <include name="test1"/>
+          <include name="test2"/>
+          <include name="Test5"/>
+          <include name="test8"/>
+          <include name="test7"/>
+          <include name="Test9"/>
+          <include name="setup"/>
+          <include name="test6"/>
+          <include name="test3"/>
+          <include name="teardown"/>
+          <include name="test4"/>
+        </methods>
+      </class> <!-- TestCases.TC003_UpcomingBikePage -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
